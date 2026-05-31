@@ -104,3 +104,21 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# === Limpieza TFG: artefactos y restos que no se versionan ===
+
+# Restos de Plastic SCM / Unity Version Control
+.plastic/
+ignore.conf
+
+# Build compilada del juego (artefacto generado, reproducible)
+mi-juegazo/
+
+# Backups comprimidos
+*.zip
+*.zip.meta
+
+# Archivos de recuperación de Unity
+Recovery.unity
+Recovery.unity.meta
+_Recovery/
